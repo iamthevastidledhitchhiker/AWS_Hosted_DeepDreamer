@@ -132,7 +132,7 @@ def main(inputdir, outputdir, preview, octaves, octave_scale, iterations, jitter
 
     # Loading DNN model
     model_name = 'bvlc_googlenet'
-    model_path = './caffe/models/' + model_name + '/'
+    model_path = '/home/ubuntu/caffe/models/' + model_name + '/'
     net_fn = model_path + 'deploy.prototxt'
     param_fn = model_path + 'bvlc_googlenet.caffemodel'
 
